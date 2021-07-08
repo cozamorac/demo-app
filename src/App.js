@@ -4,10 +4,14 @@ import './App.css';
 function App() {
   var nombre = "Hrist-Joy";
   var presentacion = <h1>Hola mi name is: {nombre}</h1>
+  var presentacion1 = <h1>feature/ cambios: {nombre}</h1>
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -20,7 +24,7 @@ function App() {
           Prueba de Git
         </a>
         {
-         presentacion
+         presentacion1
         }
       </header>
     </div>
